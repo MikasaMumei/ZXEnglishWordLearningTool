@@ -7,7 +7,18 @@ export const useRankingStore = defineStore('ranking', {
 
   actions: {
     async loadRanking() {
-      // TODO: 实现加载排行榜逻辑
+      try {
+        const response = await fetch('http://backend:3678/data');
+        if (!response.ok) throw new Error('Failed to load data');
+        const data = await response.json();
+        this.ranking = data.ranking || [];
+      } catch (error) {
+        console.error('Failed to load ranking:', error);
+      }
+    },
+
+    async syncDataToBackend() {
+      // Ranking store typically doesn't sync data, it loads from backend
     }
   }
 })
