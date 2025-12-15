@@ -1,5 +1,7 @@
 
-##🎯 完整 AI 编程提示词清单 (Docker & 里程碑模式)###阶段 1：核心后端与数据初始化 (Prompt 1)**目标：** 建立 Node.js 后端环境、SQLite 数据库结构、基础 API 和 Dockerfile。
+##🎯 完整 AI 编程提示词清单 (Docker & 里程碑模式)
+
+###阶段 1：核心后端与数据初始化 (Prompt 1)**目标：** 建立 Node.js 后端环境、SQLite 数据库结构、基础 API 和 Dockerfile。
 
 > **角色设定：** 你是一名精通 Node.js、SQLite、WebSocket 和 Docker 的全栈工程师。
 > **目标：** 创建一个极简的 Node.js 后端服务 (`server.js`)，用于支持离线局域网学习系统。同时，你需要为该服务编写 Dockerfile。
