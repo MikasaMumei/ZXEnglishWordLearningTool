@@ -1,0 +1,1 @@
+import{d as s,c as t,a as o,o as a,_ as n}from"./index-l-aa-Ge4.js";const r={class:"home"},_=s({__name:"HomeView",setup(c){return(l,e)=>(a(),t("div",r,[...e[0]||(e[0]=[o("h1",null,"ZX English Word Learning Tool",-1),o("p",null,"Welcome to the home page!",-1)])]))}}),p=n(_,[["__scopeId","data-v-18547be5"]]);export{p as default};
